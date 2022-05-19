@@ -5,6 +5,7 @@ int main(void){
   int inversor = 1;
   float somaFinal = 1, elevado, numeroBase, fat, potencia, decrescimo;
 
+  printf("Digite um numero: ");
   scanf("%f", &numeroBase);
 
   for (int i = 2; i <= 20; i = i+2){
@@ -28,7 +29,7 @@ int main(void){
     }
   }
 
-  printf("%.3f\n", somaFinal);
+  printf("Resultado da sequencia: %.3f\n", somaFinal);
 
   return 0;
 }
