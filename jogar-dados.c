@@ -12,6 +12,7 @@ int main(){
   printf("Digite a quantidade de vezes que deseja rodar o dado: ");
   scanf("%d", &rodadas);
   getchar();
+  system("clear");
 
   for(int i = 0; i <  rodadas; i++){
     switch ((rand() % 6) + 1)
